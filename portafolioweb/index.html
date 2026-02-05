@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKA Antonio | FRP Bypass Specialist & Hardware Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-symbol">
+                    <img src="https://raw.githubusercontent.com/antoniosk60/logo/refs/heads/main/ChatGPT%20Image%204%20feb%202026%2C%2012_05_34%20a.m..png"
+                        alt="SK logo" class="logo-img">
+                </div>
+                <div class="logo-text"></div>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#frp">FRP & Bypass</a></li>
+                    <li><a href="#social">Redes Sociales</a></li>
+                    <li><a href="#ethics">Ética Legal</a></li>
+                </ul>
+            </nav>
+
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <a href="portfolio.html" class="portfolio-btn">
+                    <i class="fas fa-code"></i>
+                    Portafolio Dev
+                </a>
+                <a href="#contact" class="emergency-btn">
+                    <i class="fas fa-phone-alt"></i>
+                    Emergencia FRP
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Combined Hero Section - FRP & Dev -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-badges-combined">
+                <div class="specialist-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    ESPECIALISTA EN FRP & BYPASS
+                </div>
+                <div class="developer-badge">
+                    <i class="fas fa-code"></i>
+                    DESARROLLADOR WEB
+                </div>
+            </div>
+
+            <h1>
+                DESBLOQUEO <span class="unlock">Y DESARROLLO</span> 
+            </h1>
+
+            <p>
+                Especialista en remoción de bloqueos FRP y cuentas Google, combinado con arquitectura de soluciones web innovadoras. 
+                Recuperación de hardware y desarrollo de software en un solo lugar.
+            </p>
+
+            <div class="dual-hero-cards">
+                <!-- FRP Card -->
+                <div class="hero-card frp-card">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Desbloqueo de Dispositivos</h3>
+                    <p class="card-description">
+                        Recupera el acceso completo a tu smartphone. Especialista en remoción de bloqueos FRP,
+                        cuentas Google y iCloud. Soluciones 100% legales con comprobante de propiedad.
+                    </p>
+                    
+                    <div class="card-features">
+                        <div class="feature-item">
+                            <i class="fab fa-google"></i>
+                            <span>Google FRP</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fab fa-apple"></i>
+                            <span>iCloud Bypass</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>30 min - 24h</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>500+ Dispositivos</span>
+                        </div>
+                    </div>
+                    
+                    <a href="https://wa.me/5215551234567" class="btn btn-primary" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Consulta Gratis
+                    </a>
+                </div>
+
+                <!-- Development Card -->
+                <div class="hero-card dev-card">
+                    <div class="card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Desarrollo Web & Tecnología</h3>
+                    <p class="card-description">
+                        Arquitecto de soluciones web modernas y eficientes. 
+                        Experiencia en desarrollo frontend y backend con enfoque en 
+                        seguridad, performance y experiencia de usuario.
+                    </p>
+                    
+                    <div class="card-features">
+                        <div class="feature-item">
+                            <i class="fas fa-code"></i>
+                            <span>Full Stack Dev</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>UI/UX Design</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-server"></i>
+                            <span>Backend Avanzado</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>Optimización SEO</span>
+                        </div>
+                    </div>
+                    
+                    <a href="portfolio.html" class="btn btn-primary">
+                        <i class="fas fa-code-branch"></i>
+                        Ver Portafolio
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-btns" style="margin-top: 2rem;">
+                <a href="#services" class="btn btn-secondary">
+                    <i class="fas fa-cogs"></i>
+                    Ver Todos los Servicios
+                </a>
+                <a href="#ethics" class="btn btn-secondary">
+                    <i class="fas fa-info-circle"></i>
+                    Más Información
+                </a>
+            </div>
+
+            <div class="hero-stats" style="margin-top: 3rem;">
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Dispositivos</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Proyectos Web</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">1.5+</div>
+                    <div class="stat-label">Años Exp.</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Satisfacción</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRP Highlight -->
+    <section id="frp" class="frp-highlight">
+        <div class="container frp-content">
+            <h2>¿OLVIDASTE TU CUENTA DE GOOGLE O APPLE?</h2>
+            <p>
+                No pierdas tu dispositivo. Ofrezco soluciones profesionales de desbloqueo para
+                situaciones donde has olvidado tus credenciales o adquiriste un dispositivo de segunda mano.
+            </p>
+
+            <div class="frp-devices">
+                <div class="device">Samsung</div>
+                <div class="device">Xiaomi</div>
+                <div class="device">Huawei</div>
+                <div class="device">Motorola</div>
+                <div class="device">iPhone</div>
+                <div class="device">iPad</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">SERVICIOS ESPECIALIZADOS</div>
+                <h2 class="section-title">Soluciones técnicas certificadas</h2>
+                <p class="section-subtitle">Protocolos SK - Garantía de calidad</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card frp-card">
+                    <div class="service-icon">
+                        <i class="fas fa-unlock-alt"></i>
+                    </div>
+                    <h3 class="service-title">FRP & Bypass</h3>
+                    <p class="service-desc">
+                        <strong>Especialista en remoción de bloqueos de seguridad y cuentas Google/iCloud.</strong><br>
+                        Soluciones para: FRP Lock, cuenta Google olvidada, iCloud bloqueado,
+                        dispositivos de segunda mano, etc.
+                    </p>
+                    <span class="service-badge">Protocolo SK - Especialidad</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Reparación Móvil</h3>
+                    <p class="service-desc">
+                        <strong>Mantenimiento preventivo y correctivo de hardware de última generación.</strong><br>
+                        Cambio de pantallas, baterías, módulos de carga, reparación de placas,
+                        y diagnóstico avanzado.
+                    </p>
+                    <span class="service-badge">Protocolo SK</span>
+                </div>
+
+                <div class="service-card frp-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">Desarrollo Web</h3>
+                    <p class="service-desc">
+                        <strong>Interfaces modernas y sistemas web escalables diseñados para el
+                            rendimiento.</strong><br>
+                        Aplicaciones web, landing pages, e-commerce, y soluciones personalizadas.
+                    </p>
+                    <span class="service-badge">Protocolo SK - Especialidad</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="service-title">Soporte Sistemas</h3>
+                    <p class="service-desc">
+                        <strong>Optimización extrema y seguridad informática para estaciones de trabajo.</strong><br>
+                        Configuración de servidores, seguridad, mantenimiento y optimización de sistemas.
+                    </p>
+                    <span class="service-badge">Protocolo SK</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Rate -->
+    <section class="success-rate">
+        <div class="container success-content">
+            <div class="success-number">98%</div>
+            <div class="success-text">Tasa de éxito en desbloqueos FRP & Bypass</div>
+
+            <div class="success-features">
+                <div class="success-feature">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Legal & Ético</p>
+                </div>
+                <div class="success-feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <p>Sin Daños</p>
+                </div>
+                <div class="success-feature">
+                    <i class="fas fa-clock"></i>
+                    <p>Rápido</p>
+                </div>
+                <div class="success-feature">
+                    <i class="fas fa-guarantee"></i>
+                    <p>Garantía</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ethics -->
+    <section id="ethics" class="ethics">
+        <div class="container">
+            <div class="ethics-content">
+                <h3 class="ethics-title">SEGURIDAD Y ÉTICA - REQUISITOS LEGALES</h3>
+                <p class="ethics-text">
+                    <strong>Operamos bajo los más altos estándares legales y éticos.</strong><br><br>
+                    • Todo servicio de desbloqueo <strong>REQUIERE comprobante de propiedad</strong> del dispositivo<br>
+                    • No liberamos equipos con reporte de extravío o robo<br>
+                    • Verificación de identidad obligatoria<br>
+                    • Tu seguridad y privacidad son nuestra máxima prioridad<br>
+                    • Servicios 100% legales y transparentes
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="contact" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿DISPOSITIVO BLOQUEADO?</h2>
+                <p>
+                    ¡No te preocupes! Contáctame ahora para una consulta gratuita.
+                    Evalúo tu caso y te doy la mejor solución para recuperar el acceso a tu dispositivo.
+                </p>
+                <a href="https://wa.me/5215551234567" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp Directo - FRP Emergency
+                </a>
+                <p style="margin-top: 2rem; color: var(--text-muted); font-size: 0.9rem;">
+                    Disponible 24/7 para emergencias de desbloqueo
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section id="social" class="social-media">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">CONECTA CONMIGO</div>
+                <h2 class="section-title">Sígueme en Redes Sociales</h2>
+                <p class="section-subtitle">Mantente actualizado con mis proyectos y contenido técnico</p>
+            </div>
+
+            <div class="social-grid">
+                <a href="https://www.instagram.com/antonio.sk.0" target="_blank" class="social-card instagram">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>Instagram</h3>
+                        <p>antonio.sk.0</p>
+                        <span class="social-badge">Seguir</span>
+                    </div>
+                </a>
+
+                <a href="https://x.com/fernan48967" target="_blank" class="social-card twitter">
+                    <div class="social-icon">
+                        <i class="fab fa-x-twitter"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>X (Twitter)</h3>
+                        <p>@fernan48967</p>
+                        <span class="social-badge">Seguir</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/antoniosk" target="_blank" class="social-card linkedin">
+                    <div class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>LinkedIn</h3>
+                        <p>Antonio SK</p>
+                        <span class="social-badge">Conectar</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/antoniosk60" target="_blank" class="social-card github">
+                    <div class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>GitHub</h3>
+                        <p>@antoniosk60</p>
+                        <span class="social-badge">Ver Código</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/@antoniosk.dev" target="_blank" class="social-card youtube">
+                    <div class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>YouTube</h3>
+                        <p>SK Technical Lab</p>
+                        <span class="social-badge">Suscribirse</span>
+                    </div>
+                </a>
+
+                <a href="https://www.facebook.com/share/17y4C11zvw/" target="_blank" class="social-card facebook">
+                    <div class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>Facebook</h3>
+                        <p>Antonio SK</p>
+                        <span class="social-badge">Seguir</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="social-stats">
+                <div class="stat-item">
+                    <div class="stat-count">2.5K+</div>
+                    <div class="stat-text">Seguidores</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-count">150+</div>
+                    <div class="stat-text">Proyectos Compartidos</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-count">24/7</div>
+                    <div class="stat-text">Disponible Online</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">
+                        <div class="logo-symbol">
+                            <img src="https://raw.githubusercontent.com/antoniosk60/logo/refs/heads/main/ChatGPT%20Image%204%20feb%202026%2C%2012_05_34%20a.m..png"
+                                alt="SK logo" class="logo-img">
+                        </div>
+                        <div class="logo-text">SK</div>
+                    </div>
+                   
+                    <p class="footer-about" style="color: var(--neon-green);">
+                        <i class="fas fa-shield-alt"></i>
+                        Servicios 100% legales con comprobante de propiedad
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>NAVEGACIÓN RÁPIDA</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio FRP</a></li>
+                        <li><a href="portfolio.html">Portafolio Dev</a></li>
+                        <li><a href="#frp">FRP & Bypass</a></li>
+                        <li><a href="#services">Todos los Servicios</a></li>
+                        <li><a href="#ethics">Ética Legal</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>CONTACTO FRP</h3>
+                    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/525663812661" target="_blank">WhatsApp +52 56 6381 2661</a></p>
+                    <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/antonio.sk.0?igsh=b21ndmgya2IzMzFs" target="_blank">Instagram</a></p>
+                    <p><i class="fab fa-x-twitter"></i> <a href="https://x.com/fernan48967" target="_blank">X (Twitter)</a></p>
+                    <p><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/share/17y4C11zvw/" target="_blank">Facebook</a></p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>© 2026 // SK TECHNICAL LABORATORY // FRP & BYPASS SPECIALIST // ALL RIGHTS RESERVED</p>
+                <p style="margin-top: 1rem; color: var(--neon-blue);">
+                    <i class="fas fa-lock"></i>
+                    Operaciones legales con comprobante de propiedad requerido
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+            mobileMenuBtn.innerHTML = navLinks.style.display === 'flex'
+                ? '<i class="fas fa-times"></i>'
+                : '<i class="fas fa-bars"></i>';
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.style.display = 'none';
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+
+        // Service cards animation
+        const serviceCards = document.querySelectorAll('.service-card');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        serviceCards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+
+        // Animate success rate number
+        const successNumber = document.querySelector('.success-number');
+        const successObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    let current = 0;
+                    const target = 98;
+                    const increment = target / 50;
+
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= target) {
+                            successNumber.textContent = target + '%';
+                            clearInterval(timer);
+                        } else {
+                            successNumber.textContent = Math.floor(current) + '%';
+                        }
+                    }, 30);
+
+                    successObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        successObserver.observe(successNumber);
+
+        // Social cards animation
+        const socialCards = document.querySelectorAll('.social-card');
+        const socialObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        socialCards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            socialObserver.observe(card);
+        });
+    </script>
+</body>
+
+</html>
